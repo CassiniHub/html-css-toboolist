@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Toboolist</title>
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <img src="img/logo.png" alt="logo boolean"><h1>ToBoolist</h1>
+    </header>
+
+    <!-- ADD TASK / ADD SECTION -->
+    <main>
+      <div class="center">
+        <section>
+          <div class="top-rounded-frame">
+            <div class="add-buttons">
+              <button class="inactive" type="button" name="task">Add task</button>
+              <button class="inactive" type="button" name="section">Add section</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- TO DO LIST -->
+        <section>
+          <div class="bottom-rounded-frame">
+            <!-- NEW TASK -->
+            <div>
+              <ul><strong>&blacktriangledown; New Task</strong>
+                <li class="done"> Quarterly Newsletter <span class="editorial">Editorial</span></li>
+              </ul>
+            </div>
+
+            <!-- TODAY -->
+            <div>
+              <ul><strong>&blacktriangledown; Today</strong>
+                <li class="done"> Recruiting blog post <span class="editorial">Editorial</span></li>
+                <li class="done"> Mobile app launch <span class="q-goals">Editorial</span></li>
+                <li class="undone"> Interview John H. <span class="recruiting">Editorial</span></li>
+                <li class="done"> Summit update to mobile storefronts <span class="mobile">Editorial</span></li>
+              </ul>
+            </div>
+
+            <!-- UPCOMING -->
+            <div>
+              <ul id="last-one"><strong>&blacktriangledown; Upcoming</strong>
+                <li class="undone"> Schedule meeting with Alex</li>
+                <li class="done"> Homepage refresh <span class="website">Editorial</span></li>
+                <li class="done"> Onboard new Sales team members <span class="sales">Editorial</span></li>
+                <li class="done"> Review editorial calendar <span class="editorial">Editorial</span></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>

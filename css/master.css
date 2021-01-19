@@ -1,0 +1,182 @@
+/* regole generali */
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+
+
+
+/* ------ HEADER ----- */
+header{
+  height: 70px;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: white;
+}
+
+header img{
+  vertical-align: middle;
+}
+
+header h1{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+
+/* ------ BODY ------ */
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  background-color: #f1fcfc;
+}
+
+.center{
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+
+
+/* ADD TASK / ADD SECTION */
+.top-rounded-frame{
+  background-color: white;
+  height: 60px;
+  margin-top: 40px;
+  border-radius: 5px 5px 0px 0px;
+  margin-bottom: 2px;
+}
+
+.add-buttons{
+  margin-left: 40px;
+  line-height: 60px;
+  height: 60px;
+}
+
+.inactive{
+  background-color: white;
+  border: 1px solid grey;
+  color: grey;
+  padding: 10px 20px;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 6px;
+  padding: 8px 10px;
+  box-shadow: none;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.inactive:hover{
+  background-color: #25a8ea;
+  border: none;
+  color: white;
+}
+
+
+
+
+
+/* ------- TO DO LIST ------- */
+.bottom-rounded-frame{
+  background-color: white;
+  height: auto;
+  border-radius: 0 0 5px 5px;;
+  margin-bottom: 5px;
+}
+
+ul{
+  list-style: none;
+  padding-top: 25px;
+  padding-left: 60px;
+}
+
+ul strong{
+  font-size: 18px;
+}
+
+#last-one{
+  padding-bottom: 20px;
+}
+
+li{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 1em;
+  text-indent: -1em;
+  color: #646464;
+}
+
+li.done:before{
+  content: 'V';
+  border: 1px solid green;
+  padding: 0 5px;
+  color: green;
+  border-radius: 50%;
+  background-color: none;
+}
+
+li.undone:before{
+  content: 'X';
+  border: 1px solid red;
+  padding: 0 5px;
+  color: red;
+  border-radius: 50%;
+  background-color: none;
+
+
+}
+
+/* button tag */
+.editorial{
+  color: white;
+  font-size: 12px;
+  padding: 6px 11px;
+  background-color: #25a8ea;
+  border-radius: 11px;
+}
+
+.q-goals{
+  color: white;
+  font-size: 12px;
+  padding: 6px 11px;
+  background-color: #966fc2;
+  border-radius: 11px;
+}
+
+.recruiting{
+  color: white;
+  font-size: 12px;
+  padding: 6px 11px;
+  background-color:  #6fc2b2;
+  border-radius: 11px;
+}
+
+.website{
+  color: white;
+  font-size: 12px;
+  padding: 6px 11px;
+  background-color:   #dd79c6;
+  border-radius: 11px;
+}
+
+.mobile{
+  color: white;
+  font-size: 12px;
+  padding: 6px 11px;
+  background-color:  #f59d4f;
+  border-radius: 11px;
+}
+
+.sales{
+  color: white;
+  font-size: 12px;
+  padding: 6px 11px;
+  background-color:  #b1d142;
+  border-radius: 11px;
+}
