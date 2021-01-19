@@ -8,6 +8,7 @@
 
 
 
+
 /* ------ HEADER ----- */
 header{
   height: 70px;
@@ -27,6 +28,8 @@ header h1{
 
 
 
+
+
 /* ------ BODY ------ */
 body{
   font-family: 'Roboto', sans-serif;
@@ -38,6 +41,7 @@ body{
   width: 80%;
   margin: 0 auto;
 }
+
 
 
 
