@@ -120,7 +120,6 @@ li.done::before, li.undone::before{
 li.done::before{
   content: 'V';
   border: 1px solid green;
-  padding: 0 5px;
   color: green;
 }
 
