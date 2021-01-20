@@ -37,22 +37,25 @@ body{
   background-color: #f1fcfc;
 }
 
-.center{
-  width: 80%;
-  margin: 0 auto;
-}
-
 
 
 
 
 /* ADD TASK / ADD SECTION */
-.top-rounded-frame{
+.center{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.rounded-frame{
   background-color: white;
-  height: 60px;
   margin-top: 40px;
-  border-radius: 5px 5px 0px 0px;
-  margin-bottom: 2px;
+  margin-bottom: 40px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.divider{
+  border-bottom: 3px solid #f1fcfc;
 }
 
 .add-buttons{
@@ -87,21 +90,11 @@ body{
 
 
 /* ------- TO DO LIST ------- */
-.bottom-rounded-frame{
-  background-color: white;
-  height: auto;
-  border-radius: 0 0 5px 5px;;
-  margin-bottom: 5px;
-}
 
 ul{
   list-style: none;
   padding-top: 25px;
   padding-left: 60px;
-}
-
-#last-one{
-  padding-bottom: 20px;
 }
 
 li{
@@ -118,7 +111,7 @@ li{
   font-size: 18px;
 }
 
-li.done:before, li.undone:before{
+li.done::before, li.undone::before{
   padding: 0 5px;
   border-radius: 50%;
   background-color: none;
@@ -131,10 +124,15 @@ li.done::before{
   color: green;
 }
 
-li.undone:before{
+li.undone::before{
   content: 'X';
   border: 1px solid red;
   color: red;
+}
+
+/* padding at the end of the page */
+#last-one{
+  padding-bottom: 40px;
 }
 
 /* button tag */
